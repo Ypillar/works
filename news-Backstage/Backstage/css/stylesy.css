@@ -1,0 +1,428 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 876px;
+}
+
+.box {
+    min-width: 880px;
+}
+
+
+/*头部信息*/
+
+.header {
+    width: 100%;
+    height: 50px;
+    background: #000000;
+}
+
+.header .header_left {
+    width: 30%;
+    height: 50px;
+    float: left;
+}
+
+.header .header_left h3 {
+    line-height: 50px;
+    text-align: center;
+    margin: 0;
+    color: #ffffff;
+}
+
+.header .header_right {
+    width: 70%;
+    height: 50px;
+    float: left;
+    line-height: 50px;
+}
+
+.header .header_right input {
+    position: relative;
+    left: 90%;
+}
+
+
+/*中间左边*/
+
+.box_body {
+    width: 100%;
+    height: 100%;
+    margin: 3px 0 0 0;
+}
+
+.left {
+    width: 18%;
+    height: 100%;
+    background: #424f63;
+    float: left;
+}
+
+.left .overall {
+    background: #424f63;
+    height: 600px;
+}
+
+.left .overall .title {}
+
+.left .overall ul {
+    margin: 0 0 10px 0;
+}
+
+.left .overall ul li {
+    list-style: none;
+    border-bottom: 1px solid;
+    display: block;
+}
+
+.left .overall .navigation {
+    display: block;
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    background: url(../images/ic_grid.png) no-repeat 15px center;
+    text-indent: 2em;
+}
+
+.left .overall ul li div {
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+    background: #353f4f;
+    display: none;
+}
+
+.left .overall ul li div a {
+    width: 100%;
+    height: 38px;
+    line-height: 38px;
+    text-indent: 3em;
+    color: #FFF;
+    display: block;
+    text-decoration: none;
+}
+
+.left .overall ul li div a:hover {
+    background: #2a323f;
+}
+
+.left .overall .navigation2 {
+    display: block;
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    background: url(../images/ic_user.png) no-repeat 15px center;
+    text-indent: 2em;
+}
+
+.left .overall .navigation3 {
+    display: block;
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    background: url(../images/ic_chats.png) no-repeat 15px center;
+    text-indent: 2em;
+}
+
+.left .overall .navigation4 {
+    display: block;
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    background: url(images/ic_chats.png) no-repeat 15px center;
+    text-indent: 2em;
+}
+
+
+/*右边*/
+
+.right {
+    float: left;
+    width: 82%;
+    background: #ffffff;
+}
+
+.right form {
+    position: absolute;
+    right: 5px;
+}
+
+.right .menu1 {
+    width: 100%;
+}
+
+.right .menu1 a {
+    display: inline-block;
+    width: 65px;
+    height: 20px;
+}
+
+.right .menu1 a:hover {
+    font-weight: 700;
+}
+
+.right .box_center {
+    width: 100%;
+    height: 100%;
+    margin: 60px 0 0 0;
+    text-align: center;
+}
+
+.right .box_center a {
+    color: #000000;
+    text-decoration: none;
+    width: 90px;
+    font-size: 18px;
+}
+
+.right .box_center2 {
+    width: 368px;
+    height: 100%;
+    margin: 60px 0 0 0;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.right .box_center2 .bottom_line1 {
+    width: 80px;
+    height: 0;
+    border: 1px solid #005AFF;
+    float: left;
+    margin: 5px 5px;
+
+}
+
+.right .box_center2 .bottom_line2 {
+    width: 80px;
+    height: 0;
+    border: 1px solid #09A95F;
+    float: left;
+    margin: 5px 5px;
+}
+
+.right .box_center2 .bottom_line3 {
+    width: 80px;
+    height: 0;
+    border: 1px solid #985807;
+    float: left;
+    margin: 5px 5px;
+}
+
+.right .box_center2 .bottom_line4 {
+    width: 80px;
+    height: 0;
+    border: 1px solid #9E036F;
+    float: left;
+    margin: 5px 5px;
+}
+
+
+/*右边中间的导航*/
+
+.right .box-navigation {
+    width: 600px;
+    height: 350px;
+    margin: 40px auto;
+}
+
+.right .box-navigation .nav1 {
+    width: 100px;
+    height: 100px;
+    border: 4px solid #1A5482;
+    float: left;
+    margin: 5px;
+}
+
+.right .box-navigation .nav1 div {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.right .box-navigation .nav1 div img {
+    width: 50px;
+    height: 50px;
+    margin: 10px 10px;
+}
+
+.right .box-navigation .nav1 span {
+    display: block;
+    font-weight: 700;
+    color: #ffffff;
+    height: 30px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+    background: rgb(24, 82, 128);
+}
+
+
+/*版权*/
+
+.footer {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+
+/*新闻管理*/
+
+.news {
+    float: left;
+    width: 81%;
+    background: #ffffff;
+    margin-left: 1%;
+    position: relative;
+}
+
+.news-query {
+    width: 100%;
+    display: none;
+    position: relative;
+}
+
+.news-nav {
+    width: 100%;
+    height: 40px;
+    background: -webkit-linear-gradient(#00B8FF, #0B71EF);
+    box-shadow: 0 1px 5px #666;
+}
+
+.news-nav span {
+    color: #ffffff;
+    line-height: 40px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+
+/*新闻查询*/
+
+.center-query {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.select {
+    width: 350px;
+}
+
+.select input {
+    margin-bottom: 0;
+}
+
+.select button {}
+
+.table {
+    margin-top: 10px;
+}
+
+
+/*新闻添加*/
+
+.widthtit {
+    width: 66px;
+    float: left;
+    display: inline;
+    line-height: 32px;
+}
+
+.widthcenter {
+    width: 500px;
+}
+
+.widthcenter input {
+    width: 300px;
+    float: left;
+}
+
+.dropdown-menu {
+    min-width: 60px;
+    width: 80px;
+    text-align: center;
+}
+
+.dropdown-menu li:hover {
+    color: #03A9F4;
+}
+
+.line {
+    margin-top: 10px;
+    height: 40px;
+}
+
+.line1 {
+    margin-top: 30px;
+    height: 333px;
+}
+
+.textareastyle {
+    width: 500px;
+}
+
+.titne{
+ height: 40px;
+display: block;
+font-size: 15px;
+line-height: 40px;
+
+}
+.news-add {
+    display: none;
+}
+.news-revision {
+    display: none;
+}
+.news-delete {
+    display: none;
+}
+.cg{
+    display: none;
+}
+.sb{
+    display: none;
+}
+.cg1{
+    display: none;
+}
+.sb1{
+    display: none;
+}
+.table2{
+    display: none;
+}
+.bar {
+    height: 18px;
+    width: 200px;
+    background: #03A9F4;
+    border-radius: 5px;
+}
+#progress{
+   width:  200px;
+   height: 18px;
+}
+#fileupload{ width:75px;}
+
+
+
+#progress1{
+   width:  200px;
+   height: 18px;
+}
+#fileupload1{ width:75px;}

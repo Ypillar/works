@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    width: 100%;
+}
+/*计算器的外框*/
+.box_calculator {
+    width: 240px;
+    height: 330px;
+    overflow: hidden;
+    margin: 30px auto;
+    border: #fff 1px solid;
+    padding-bottom: 10px;
+    background-color: #f2f2f2;
+}
+
+.calculator_head {
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.box_display {
+    width: 100%;
+    
+}
+
+
+/*显示框*/
+
+.box_display #display {
+    width: 200px;
+    height: 24px;
+    line-height: 24px;
+    padding: 4px;
+    border: #e6e6e6 1px solid;
+    border-bottom: #f2f2f2 1px solid;
+    border-right: #f2f2f2 1px solid;
+    margin: 10px auto;
+    direction: ltr;
+    text-align: right;
+    font-size: 16px;
+    color: #999;
+    outline: 0;
+    display: block;
+}
+
+/*按钮控件*/
+
+.box_key{
+	width: 202px;
+	height: 200px;
+	border: 1px solid #ffffff;
+	margin: 0 auto;
+}
+
+.box_key li{
+	list-style: none;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin: 5px 2px;
+	text-align: center;
+	line-height: 30px;
+	background: #D0D0D0;
+}
+.box_key li:hover{
+	background: #666;
+    color: #ffffff;
+}
+
+.box_key li:active {
+    background: #AB0E0E;
+    color: #ffffff;
+}
+
+.box_key .access{
+    font-size: 12px;
+    background: #000000;
+    color: #ffffff;
+
+}
+.box_key .tool{
+    background: #868282;
+    
+}
+/*欢迎使用*/
+.box_footer{
+	    height: 30px;
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+    color: #555;
+}

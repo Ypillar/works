@@ -1,0 +1,28 @@
+
+
+.title{
+	width: 100%;
+	height: 40px;
+	background: red;
+
+}
+
+.data{
+	width: 100%;
+	height: 30px;
+	background: blue;
+}
+.box-content{
+	width: 100%;
+
+}
+
+.content{
+	width: 95%;
+	margin: 0 auto;
+	background: yellow;
+}
+
+.contentnews{
+	display: none;
+}
