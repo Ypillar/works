@@ -1,0 +1,287 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+focus {
+  outline: 0;
+}
+body {
+  line-height: 1;
+  color: black;
+  background: white;
+}
+ol,
+ul {
+  list-style: none;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+}
+blockquote,
+q {
+  quotes: "" "";
+}
+img {
+  width: 100%;
+}
+.margin {
+  padding-right: 0;
+  padding-left: 0;
+}
+.margin-5 {
+  margin: 0 5px;
+}
+/*导航*/
+header .height-logo {
+  height: 60px;
+}
+header .height-logo img {
+  height: 60px;
+}
+header .divright {
+  margin: 0;
+  padding: 0;
+}
+header .divright nav .pater {
+  position: relative;
+}
+header .divright nav .right-nav {
+  width: 100%;
+  height: 60px;
+}
+header .divright nav .right-nav ul {
+  position: absolute;
+  right: 10px;
+  line-height: 60px;
+}
+header .divright nav .right-nav ul .righta {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 90px;
+}
+header .divright nav .right-nav ul .righta .arrow {
+  width: 6px;
+  height: 6px;
+  border: 1px solid #555;
+  position: absolute;
+  top: 30px;
+  right: 3px;
+  border-top: 0 solid transparent;
+  border-left: 0 solid transparent;
+  transform: rotate(-135deg);
+}
+header .divright nav .right-nav ul .right2 {
+  margin-right: 100px;
+}
+header .divright nav .right-nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+  text-align: center;
+  font-weight: 700;
+  width: 70px;
+}
+header .divright nav .right-nav ul li:hover {
+  background: #0fff14;
+  cursor: pointer;
+  color: #ffffff;
+}
+header .divright nav .right-nav ul li:hover .arrow {
+  transform: rotate(45deg);
+  border: 1px solid #ffffff;
+  border-top: 0 solid transparent;
+  border-left: 0 solid transparent;
+  -webkit-animation: circle 1s infinite linear forwards;
+  animation-iteration-count: 1;
+}
+header .divright nav .right-nav .none {
+  width: 90px;
+  height: 170px;
+  display: block;
+  position: absolute;
+  right: 10px;
+  top: 60px;
+  background: #ffffff;
+  z-index: 99;
+  font-size: 12px;
+  margin: 0 10px;
+  letter-spacing: 3px;
+  display: none;
+}
+header .divright nav .right-nav .none ul {
+  width: 100%;
+  position: absolute;
+  right: 0;
+}
+header .divright nav .right-nav .none ul li {
+  display: block;
+  text-align: center;
+  font-weight: 700;
+  width: 100%;
+  line-height: 20px;
+  font-weight: 500;
+  margin: 0;
+  letter-spacing: 5px;
+}
+/*商品展示*/
+article .layout {
+  height: 350px;
+}
+article .layout img {
+  height: 100%;
+}
+article .layout .caption p .xxh {
+  font-size: 14px;
+}
+article .btn-green {
+  background: #0eff13;
+  border: 1px solid #0eff13;
+}
+article .btn-green:hover {
+  background: #ff0000;
+  border: 1px solid #ff0000;
+}
+/*底部*/
+footer {
+  margin-top: 83px;
+  padding: 5px;
+}
+footer .font-bj span {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 5px;
+}
+footer .font-bj p {
+  font-size: 12px;
+  color: #555;
+  margin: 5px 0;
+}
+footer .bj-telephone {
+  position: relative;
+}
+footer .bj-telephone img {
+  width: 50px;
+  height: 50px;
+}
+footer .bj-telephone span {
+  position: absolute;
+  font-size: 1.3rem;
+  color: #0eff13;
+  font-weight: 700;
+  top: 17px;
+}
+footer .bj-backgruond {
+  width: 100%;
+  height: 30px;
+  background: #0eff13;
+  color: #ffffff;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 30px;
+}
+footer .bj-backgruond-color {
+  height: 30px;
+  background: #ccc9c9;
+  line-height: 30px;
+  font-size: 12px;
+  color: #555;
+}
+footer .bj-backgruond-color .bj-right {
+  position: absolute;
+  right: 5px;
+}
+footer .bj-backgruond-color .bj-right .width-550 {
+  width: 550px;
+  position: absolute;
+  right: 0;
+}
+footer .bj-backgruond-color .bj-right .width-550 .bj-kk {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+footer .bj-backgruond-color .bj-right .icon-ga {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 5px;
+}
+@-webkit-keyframes circle {
+  0% {
+    transform: rotate(-135deg);
+  }
+  100% {
+    transform: rotate(45deg);
+  }
+}
